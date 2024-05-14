@@ -11,7 +11,7 @@
   --second-color: hsl(195, 75%, 52%);
   --dark-color: hsl(212, 40%, 12%);
   --white-color: hsl(212, 4%, 95%);
-  --body-color: hsl(212, 42%, 15%);
+  --body-color: hsl(0, 0%, 100%);
   --container-color: hsl(212, 42%, 20%);
 
   /*========== Font and typography ==========*/
@@ -50,6 +50,7 @@ img {
   justify-content: center;
   align-items: center;
   padding-bottom: 10px;
+  color: black;
 
   
   
@@ -93,6 +94,7 @@ img {
   text-align: center;
   position: relative;
   z-index: 10;
+  height: 257px;
 }
 
 .card__img {
